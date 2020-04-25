@@ -3,4 +3,6 @@
 <remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
 <project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
 <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+<remote name="existenz" fetch="https://github.com/niaboc79/" />
+<project path="device/sony/customization" name="device_sony_customization" remote="existenz" revision="ten" />
 </manifest>
